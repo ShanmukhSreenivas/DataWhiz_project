@@ -36,7 +36,10 @@
             <li>
               <a class = "visible-xs" href="#state">
                 <br class="hidden-xs">Statewise prediction</a>
-            
+            </li>
+            <li>
+              <a class = "visible-xs" href="#peak">
+                <br class="hidden-xs">Peak vs Population Density</a>
           </ul><!-- #nav-list -->
         </div><!-- .collapse .navbar-collapse -->
       </div><!-- .container -->
@@ -45,33 +48,47 @@
 
   
 
-<h3 class = "text-center"id="ourm">Predictions</h3>
+<h1 id="ourm">Predictions</h1>
 
 <div class="row">
   <div class="col-xs-12">
     <div class = "inner" id="country">
     <h2>
     Country predictions</h2>
-    <p>A Leonard Shelby, an insurance investigator, suffers from anterograde amnesia and uses notes and tattoos to hunt for the man he thinks killed his wife, which is the last thing he remembers.</p>
+
+    <h3>Indian daily prediction of Confirmed cases vs Actual daily Confirmed cases</h3>
     <p id="Graph">
-    	<a href="#">Prediction Graph</a>
+    	<img src="00012.jpg" alt="Indian Daily_Prediction vs Daily_Total" width=100%>
     </p>
+        <p>The plot represents the number of confirmed cases per day(red) and it's prediction(blue)</p>
+        <p>The number of cases per day is predicted using the ARIMA model by using difference in number of cases reported per day in the period of 1 week</p>
+    <h3>Prediction of Confirmed cases in India vs Reported Confirmed cases in India</h3>
+    <p id="Graph2">
+      <img src="00013.jpg" alt="Indian Prediction vs Total" width=100%>
+    </p>
+        <p>The plot represents the number of confirmed cases till date(red) and it's prediction(blue)</p>
+        <p>The number of cases reported till date is calculated using the cummulative sum of the number of cases reported per day(from the previous graph)</p>
+    
   </div>
   </div>
   <div class="col-xs-12">
     <div class = "inner" id="state">
     <h2>Statewise predictions</h2>
-    <p>Cobb steals information from his targets by entering their dreams. Saito offers to wipe clean Cobb's criminal history as payment for performing an inception on his sick competitor's son.</p>
-    <form action="/">
-    	<label for="State">Choose a State :</label>
-    	<select name="State" id="State">
-    		<optgroup label="States">
-    			<option value="#">States</option>
-    		</optgroup>
-    	</select>
-    	<br><br>
-    	<input type="submit" value="Submit">
-    </form>
+    <h3>State wise daily confirmed cases predictions</h3>
+    <div class="flourish-embed flourish-chart" data-src="visualisation/3227129" data-url="https://flo.uri.sh/visualisation/3227129/embed"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+    <p>The plot represents the prediction of number of cases reported per day in each state</p>
+    <h3>State wise total confirmed cases predictions</h3>
+    <div class="flourish-embed flourish-chart" data-src="visualisation/3227246" data-url="https://flo.uri.sh/visualisation/3227246/embed"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+    <p>The plot represents the prediction of number of cases reported till date in each state</p>
+  </div>
+  </div>
+  <div class="col-xs-12">
+    <div class = "inner" id="peak">
+    <h2>Peak Cases VS Population Density</h2>
+    <p><img src="Peak Cases_Population vs Population Density.jpeg" alt="Peak Cases_Population vs Population Density" width=100%></p>
+    <p>The plot shows the relation between the peak number of cases reported so far per Crore and population density.</p>
+    <p>In this plot the population of the country is represented by the size of the points, the level of lockdown is represented by the colour and the shapes represent the countries.</p>
+    <p> This was used to estimate the peak number of cases at which the decline of cases starts.</p>
   </div>
   </div>
 </div>  

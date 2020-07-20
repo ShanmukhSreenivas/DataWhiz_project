@@ -3,36 +3,27 @@
   height: 80px;
 }
 body {
-  font-size: 16px;
-  color: #fff;  
-  font-family: Helvetica;
+  font-size: 18px;
+  color: #292e30;  
+  font-family: Montserrat Helvetica;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #D3D3D3;
+  background-color: #D6D4D2;
   border-radius: 0;
   border: 0;
 }
 
-form {
-  text-align: center;
-  color: black
-}
-
-#Graph a:hover ,a:focus {
-  text-decoration: none;
-}
 .navbar-brand {
   padding-top: 25px;
 }
 
 .navbar-brand h1 { /* FOOD LLC */
-  font-family: Helvetica;
-  color: black;
+  font-family:Montserrat Helvetica;
   font-size: 2.5em;
+  color: #292e30;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
@@ -45,7 +36,6 @@ form {
   margin-top: 10px;
 }
 #nav-list a {
-  color: black;
   text-align: center;
 }
 #nav-list a:hover {
@@ -72,26 +62,33 @@ form {
 }
 /* END HEADER */
 
-
+#ourm{
+  margin-left: 2%;
+}
 h1 {
   margin-top: 15px;
   margin-bottom: 35px;
 }
+
 h2{
   padding-right: 5%;
   padding-left: 5%;
-  margin-left: 60%;
-  border: 1px solid black;
+  padding-top: 1%;
+  padding-bottom: 1.2%;
+  font-weight: bold;  
+  margin-left: 70%;
   margin-top: 0;
-  font-size: 1.25em;
+  background-color: white;
+  font-size: 1.5em;
 
 
 }
-
+ h3 {
+  margin-left: 70px;
+ }
 
 #ourm{
   font-size: 2em;
-  color: black;
   margin-bottom: 3%;
 }
 
@@ -112,14 +109,13 @@ h2{
 
 
 h2{text-align: center;
-color: black;}
+}
 
 .row div{
     margin-bottom: 2%;
 }
  .inner {
   background-color: #D3D3D3 ;
-    border: 2px solid black;
 
 }
 
@@ -129,8 +125,8 @@ p {
   margin-right: auto;
   margin-left: auto;
   margin-top: 2.5%;
+  padding-bottom: 1%;
   font-family: Helvetica;
-  color: black;
   height: auto;
   font-size: 1em;
 }
@@ -140,7 +136,6 @@ p {
 @media (max-width: 767px) {
   .col-sg-1{
     float: left;
-    border: 2px solid black;
     width: 97%;
     margin-bottom: 25px;
   }
