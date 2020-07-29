@@ -10,7 +10,7 @@
 </head>
 <body>
   <header>
-    <nav id="header-nav" class="navbar navbar-default">
+   <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
           
@@ -40,10 +40,10 @@
             <li>
               <a class = "visible-xs" href="#peak">
                 <br class="hidden-xs">Peak vs Population Density</a>
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-      </div><!-- .container -->
-    </nav><!-- #header-nav -->
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
 
   
@@ -75,10 +75,10 @@
   <div class="col-xs-12">
     <div class = "inner" id="state">
     <h2>Statewise predictions</h2>
-    <h3>State wise daily confirmed cases predictions</h3>
+    <h3 id="statedaily">State wise daily confirmed cases predictions</h3>
     <div class="flourish-embed flourish-chart" data-src="visualisation/3227129" data-url="https://flo.uri.sh/visualisation/3227129/embed"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
     <p>The plot represents the prediction of number of cases reported per day in each state</p>
-    <h3>State wise total confirmed cases predictions</h3>
+    <h3 id="totalstate">State wise total confirmed cases predictions</h3>
     <div class="flourish-embed flourish-chart" data-src="visualisation/3227246" data-url="https://flo.uri.sh/visualisation/3227246/embed"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
     <p>The plot represents the prediction of number of cases reported till date in each state</p>
   </div>
@@ -93,16 +93,21 @@
   </div>
   </div>
 </div>
-	<div style="text-align: right;margin-right: 5%;font-weight: bold;font-size:20px;font-family: : Montserrat">
-		<h4>By,</h4>
-		<h4>Pranay Bandaru</h4>
-		<h4>Deety Shanmukha Sreenivas</h4>
-		<h4>Prateek Reddy</h4>
-		<h4>Y Sai Lahar</h4>
-	</div>  
+	  
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
+<footer style="background-color: #212121;height: 170px;">
+	<div class="foot">
+		<h4 style="padding-top: 15px">By,</h4>
+		<h4>Deety Shanmukha Sreenivas</h4>
+		<h4>Pranay Bandaru</h4>
+		<h4>Prateek Reddy</h4>
+		<h4>Y Sai Lahar</h4>
+	</div>
+</footer>
 </html>
+
+
 
